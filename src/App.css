@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+
+canvas {
+  width: inherit;
+  height: inherit;
+  margin: auto;
+}
+
+.all-wrapper {
+  position: relative;
+  margin: auto;
+  width: 60vh;
+  height: 50vh;
+}
+
+.bg-wrapper {
+  position: absolute;
+  margin: auto;
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+}
+
+.bg {
+  display: block;
+  margin: auto;
+  width: inherit;
+  height: inherit;
+}
+
+.canvas-wrapper {
+  position: absolute;
+  margin: auto;
+  width: inherit;
+  height: inherit;
+  z-index: 1;
+}
